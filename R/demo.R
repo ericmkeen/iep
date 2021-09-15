@@ -20,9 +20,11 @@ source('functions.R')
 
 plastics <- read_csv('https://raw.githubusercontent.com/ericmkeen/iep/main/data/plastics-2021.csv')
 head(plastics)
+View(plastics)
 
 transects <- read_csv('https://raw.githubusercontent.com/ericmkeen/iep/main/data/transects-2021.csv')
 head(transects)
+View(transects)
 
 ################################################################################
 # Map data

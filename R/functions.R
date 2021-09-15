@@ -15,7 +15,7 @@ map_stcats <- function(xmin = -81.22,
   }
 
   suppressWarnings({
-    library(rnaturalearth)
+    #library(rnaturalearth)
     library(magrittr)
     library(sf)
     library(rgdal)
